@@ -5,6 +5,14 @@
   "nx": {
     "name": "app-one",
     "projectType": "application",
-    "sourceRoot": "apps/app-one/src"
+    "sourceRoot": "apps/app-one/src",
+    "targets": {
+      "typeCheck": {
+        "command": "tsc --project apps/app-one/tsconfig.app.json"
+      },
+      "formatCode": {
+        "command": "prettier  --write \"apps/app-one/**/*.+(js|json|ts|tsx)\""
+      }
+    }
   }
 }
