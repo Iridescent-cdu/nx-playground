@@ -14,5 +14,8 @@
         "command": "prettier  --write \"apps/app-one/**/*.+(js|json|ts|tsx)\""
       }
     }
+  },
+  "dependencies": {
+    "@nx-playground/ui-timer": "workspace:*"
   }
 }

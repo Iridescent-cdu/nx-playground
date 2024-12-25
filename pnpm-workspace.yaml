@@ -1,4 +1,5 @@
-packages: 
-  - packages/**
-  - apps/**
-  - libs/**
+packages:
+  - 'packages/**'
+  - 'apps/**'
+  - 'libs/**'
+  - 'libs/ui/components/**'

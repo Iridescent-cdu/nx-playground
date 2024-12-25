@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "composite": true,
@@ -13,7 +14,9 @@
     "importHelpers": true,
     "incremental": true,
     "isolatedModules": true,
-    "lib": ["es2022"],
+    "lib": [
+      "es2022"
+    ],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "noEmitOnError": true,
