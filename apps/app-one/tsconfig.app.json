@@ -13,11 +13,6 @@
       "@nx/react/typings/image.d.ts",
       "vite/client"
     ],
-    "paths": {
-      "@nx-playground/ui-timer": [
-        "libs/ui/components/timer/src/index.ts"
-      ]
-    },
     "rootDir": "src",
     "module": "esnext",
     "moduleResolution": "bundler"

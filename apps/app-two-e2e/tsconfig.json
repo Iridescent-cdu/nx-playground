@@ -19,6 +19,9 @@
   "exclude": ["dist", "eslint.config.js"],
   "references": [
     {
+      "path": "../../libs/ui/components/timer"
+    },
+    {
       "path": "../app-two"
     }
   ]

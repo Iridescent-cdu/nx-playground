@@ -1,12 +1,12 @@
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
-
+import { Timer } from '@nx-playground/ui-timer'
 export function App() {
   return (
     <div>
       <NxWelcome title="app-two" />
-
+      <Timer color={'red'} />
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}
