@@ -4,9 +4,7 @@
     "outDir": "out-tsc/app-two",
     "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
     "jsx": "react-jsx",
-    "lib": [
-      "dom"
-    ],
+    "lib": ["dom"],
     "types": [
       "node",
       "@nx/react/typings/cssmodule.d.ts",
@@ -32,15 +30,10 @@
     "vitest.config.ts",
     "vitest.config.mts"
   ],
-  "include": [
-    "src/**/*.js",
-    "src/**/*.jsx",
-    "src/**/*.ts",
-    "src/**/*.tsx"
-  ],
+  "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"],
   "references": [
     {
-      "path": "../../libs/ui/components/timer/tsconfig.json"
+      "path": "../../libs/ui/components/timer/tsconfig.lib.json"
     }
   ]
 }

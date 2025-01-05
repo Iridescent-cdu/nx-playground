@@ -3,17 +3,12 @@
   "compilerOptions": {
     "outDir": "out-tsc/random-api",
     "module": "nodenext",
-    "types": [
-      "node",
-      "express"
-    ],
+    "types": ["node", "express"],
     "rootDir": "src",
     "moduleResolution": "nodenext",
     "tsBuildInfoFile": "out-tsc/random-api/tsconfig.app.tsbuildinfo"
   },
-  "include": [
-    "src/**/*.ts"
-  ],
+  "include": ["src/**/*.ts"],
   "exclude": [
     "out-tsc",
     "dist",
@@ -26,7 +21,7 @@
   ],
   "references": [
     {
-      "path": "../../libs/api-interfaces/random-api-interface/tsconfig.json"
+      "path": "../../libs/api-interfaces/random-api-interface/tsconfig.lib.json"
     }
   ]
 }

@@ -9,6 +9,9 @@
   "include": ["jest.config.ts", "src/**/*.ts"],
   "references": [
     {
+      "path": "../../libs/api-interfaces/random-api-interface"
+    },
+    {
       "path": "../random-api"
     }
   ]

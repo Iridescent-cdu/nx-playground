@@ -1,7 +1,9 @@
 {
   "name": "@nx-playground/random-api-interface",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "@nx/rollup": "20.3.0"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "private": true,
