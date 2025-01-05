@@ -22,6 +22,7 @@
     "generate:use-random-color-hook": "nx g @nx/react:lib libs/ui/hooks/use-random-color --export",
     "generate:random-api": "nx g @nx/express:app apps/random-api",
     "generate:random-api-interface": "nx g @nx/js:lib libs/api-interfaces/random-api-interface",
+    "init": "npx create-nx-workspace --pm pnpm",
     "graph": "nx graph",
     "migrate": "nx migrate latest",
     "reset": "nx reset",
