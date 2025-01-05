@@ -1,8 +1,3 @@
-/**
- * This is not a production server yet!
- * This is only a minimal backend to get started.
- */
-
 import express from 'express';
 import * as path from 'path';
 
@@ -10,8 +5,12 @@ const app = express();
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
-app.get('/api', (req, res) => {
-  res.send({ message: 'Welcome to random-api!' });
+app.get('/api/random', (req, res) => {
+  const prob = Math.random();
+
+  const color = prob < 0.3 ? 'red' : prob < 0.6 ? 'blue' : 'green';
+
+  res.status(200).json({ color });
 });
 
 const port = process.env.PORT || 3333;

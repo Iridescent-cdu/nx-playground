@@ -5,6 +5,7 @@
   "scripts": {
     "serve:app-one": "nx serve app-one",
     "serve:app-two": "nx serve app-two",
+    "serve:random-api": "nx serve random-api",
     "serve": "nx run-many -t serve",
     "build:app-one": "nx run app-one:build",
     "build:app-two": "nx run app-two:build",
