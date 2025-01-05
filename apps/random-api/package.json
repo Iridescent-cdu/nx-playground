@@ -30,6 +30,12 @@
         "options": {
           "passWithNoTests": true
         }
+      },
+      "typeCheck": {
+        "command": "tsc --project apps/random-api/tsconfig.json"
+      },
+      "formatCode": {
+        "command": "prettier  --write \"apps/random-api/**/*.+(js|json|ts|tsx)\""
       }
     }
   }

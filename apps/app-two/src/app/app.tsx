@@ -1,7 +1,7 @@
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
-import { Timer } from '@nx-playground/ui-timer'
+import { Timer } from '@nx-playground/ui-timer';
 export function App() {
   return (
     <div>
