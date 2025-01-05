@@ -1,12 +1,17 @@
-import express from 'express';
+import express, { type Response } from 'express';
 import * as path from 'path';
-import { randomApiRoute } from '@nx-playground/random-api-interface'
+import { randomApiRoute, type RandomColorApiResponse } from '@nx-playground/random-api-interface'
 
 const app = express();
 
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+})
+
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
-app.get(randomApiRoute, (req, res) => {
+app.get(randomApiRoute, (req, res: Response<RandomColorApiResponse>) => {
   const prob = Math.random();
 
   const color = prob < 0.3 ? 'red' : prob < 0.6 ? 'blue' : 'green';
