@@ -1,0 +1,36 @@
+{
+  "name": "@nx-playground/random-api",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "random-api",
+    "projectType": "application",
+    "sourceRoot": "apps/random-api/src",
+    "targets": {
+      "serve": {
+        "executor": "@nx/js:node",
+        "defaultConfiguration": "development",
+        "dependsOn": [
+          "build"
+        ],
+        "options": {
+          "buildTarget": "random-api:build",
+          "runBuildTargetDependencies": false
+        },
+        "configurations": {
+          "development": {
+            "buildTarget": "random-api:build:development"
+          },
+          "production": {
+            "buildTarget": "random-api:build:production"
+          }
+        }
+      },
+      "test": {
+        "options": {
+          "passWithNoTests": true
+        }
+      }
+    }
+  }
+}

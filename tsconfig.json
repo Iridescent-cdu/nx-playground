@@ -17,6 +17,12 @@
     },
     {
       "path": "./libs/ui/components/timer"
+    },
+    {
+      "path": "./apps/random-api-e2e"
+    },
+    {
+      "path": "./apps/random-api"
     }
   ]
 }
