@@ -6,6 +6,14 @@
   "nx": {
     "name": "timer",
     "projectType": "library",
-    "sourceRoot": "libs/ui/components/timer/src"
+    "sourceRoot": "libs/ui/components/timer/src",
+    "targets": {
+      "typeCheck": {
+        "command": "tsc --project libs/ui/components/timer/tsconfig.json"
+      },
+      "formatCode": {
+        "command": "prettier  --write \"libs/ui/components/timer/**/*.+(js|json|ts|tsx)\""
+      }
+    }
   }
 }

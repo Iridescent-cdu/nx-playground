@@ -8,7 +8,7 @@
     "sourceRoot": "apps/app-one/src",
     "targets": {
       "typeCheck": {
-        "command": "tsc --project apps/app-one/tsconfig.app.json"
+        "command": "tsc --project apps/app-one/tsconfig.json"
       },
       "formatCode": {
         "command": "prettier  --write \"apps/app-one/**/*.+(js|json|ts|tsx)\""

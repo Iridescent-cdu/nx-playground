@@ -8,11 +8,14 @@
     "sourceRoot": "apps/app-two/src",
     "targets": {
       "typeCheck": {
-        "command": "tsc --project apps/app-one/tsconfig.app.json"
+        "command": "tsc --project apps/app-two/tsconfig.json"
       },
       "formatCode": {
-        "command": "prettier  --write \"apps/app-one/**/*.+(js|json|ts|tsx)\""
+        "command": "prettier  --write \"apps/app-two/**/*.+(js|json|ts|tsx)\""
       }
     }
+  },
+  "dependencies": {
+    "@nx-playground/ui-timer": "workspace:*"
   }
 }
