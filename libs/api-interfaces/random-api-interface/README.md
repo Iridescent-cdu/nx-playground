@@ -1,0 +1,11 @@
+# random-api-interface
+
+This library was generated with [Nx](https://nx.dev).
+
+## Building
+
+Run `nx build random-api-interface` to build the library.
+
+## Running unit tests
+
+Run `nx test random-api-interface` to execute the unit tests via [Vitest](https://vitest.dev/).

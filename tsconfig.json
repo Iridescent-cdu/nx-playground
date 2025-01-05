@@ -23,6 +23,9 @@
     },
     {
       "path": "./apps/random-api"
+    },
+    {
+      "path": "./libs/api-interfaces/random-api-interface"
     }
   ]
 }
