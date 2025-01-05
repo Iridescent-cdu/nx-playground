@@ -26,6 +26,9 @@
     },
     {
       "path": "./libs/api-interfaces/random-api-interface"
+    },
+    {
+      "path": "./libs/ui/hooks/use-random-color"
     }
   ]
 }
