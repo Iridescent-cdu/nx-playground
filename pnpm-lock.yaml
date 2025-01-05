@@ -206,10 +206,6 @@ importers:
 
   apps/app-two-e2e: {}
 
-  apps/ramdom-api: {}
-
-  apps/ramdom-api-e2e: {}
-
   apps/random-api: {}
 
   apps/random-api-e2e: {}
