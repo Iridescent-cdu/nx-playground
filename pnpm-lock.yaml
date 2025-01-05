@@ -215,7 +215,11 @@ importers:
 
   apps/app-two-e2e: {}
 
-  apps/random-api: {}
+  apps/random-api:
+    dependencies:
+      '@nx-playground/random-api-interface':
+        specifier: workspace:*
+        version: link:../../libs/api-interfaces/random-api-interface
 
   apps/random-api-e2e: {}
 
