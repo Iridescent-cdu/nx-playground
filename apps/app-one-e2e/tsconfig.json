@@ -19,6 +19,12 @@
   "exclude": ["dist", "eslint.config.js"],
   "references": [
     {
+      "path": "../../libs/api-interfaces/random-api-interface"
+    },
+    {
+      "path": "../../libs/ui/hooks/use-random-color"
+    },
+    {
       "path": "../../libs/ui/components/timer"
     },
     {

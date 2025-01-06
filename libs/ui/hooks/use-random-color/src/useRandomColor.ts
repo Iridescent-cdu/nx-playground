@@ -12,13 +12,11 @@ const fetchRandomColor = async () => {
 };
 
 export const useRandomColor = () => {
-  const [randomColor, setRandomColor] = useState<Color>();
+  const [randomColor, setRandomColor] = useState<Color>('');
 
   useEffect(() => {
     fetchRandomColor().then(({ color }) => setRandomColor(color));
   }, []);
 
-  return {
-    randomColor,
-  }
+  return randomColor
 };

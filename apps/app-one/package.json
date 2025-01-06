@@ -16,6 +16,7 @@
     }
   },
   "dependencies": {
-    "@nx-playground/ui-timer": "workspace:*"
+    "@nx-playground/ui-timer": "workspace:*",
+    "@nx-playground/use-random-color": "workspace:*"
   }
 }

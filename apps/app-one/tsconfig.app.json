@@ -33,6 +33,12 @@
   "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"],
   "references": [
     {
+      "path": "../../libs/api-interfaces/random-api-interface/tsconfig.lib.json"
+    },
+    {
+      "path": "../../libs/ui/hooks/use-random-color/tsconfig.lib.json"
+    },
+    {
       "path": "../../libs/ui/components/timer/tsconfig.lib.json"
     }
   ]

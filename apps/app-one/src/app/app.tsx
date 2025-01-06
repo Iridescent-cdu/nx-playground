@@ -1,11 +1,17 @@
 import NxWelcome from './nx-welcome';
 import { Timer } from '@nx-playground/ui-timer';
 import { Route, Routes, Link } from 'react-router-dom';
+import { useRandomColor } from '@nx-playground/use-random-color';
 
 export function App() {
+  const color = useRandomColor();
+
   return (
     <div>
       <Timer color={'green'} />
+
+      <span style={{ color }}>{color}</span>
+
       <NxWelcome title="app-one" />
 
       {/* START: routes */}

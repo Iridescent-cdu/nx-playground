@@ -213,6 +213,9 @@ importers:
       '@nx-playground/ui-timer':
         specifier: workspace:*
         version: link:../../libs/ui/components/timer
+      '@nx-playground/use-random-color':
+        specifier: workspace:*
+        version: link:../../libs/ui/hooks/use-random-color
 
   apps/app-one-e2e: {}
 
