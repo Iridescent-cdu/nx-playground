@@ -240,7 +240,11 @@ importers:
 
   libs/ui/components/timer: {}
 
-  libs/ui/hooks/use-random-color: {}
+  libs/ui/hooks/use-random-color:
+    dependencies:
+      '@nx-playground/random-api-interface':
+        specifier: workspace:*
+        version: link:../../../api-interfaces/random-api-interface
 
 packages:
 

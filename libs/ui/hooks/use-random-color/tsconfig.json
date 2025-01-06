@@ -3,6 +3,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../../api-interfaces/random-api-interface"
+    },
+    {
       "path": "./tsconfig.lib.json"
     }
   ],
